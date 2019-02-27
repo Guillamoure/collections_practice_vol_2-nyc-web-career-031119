@@ -74,4 +74,6 @@ def merge_data(keys, data)
       keys[0].push(name.values)
     end
   end
+  puts keys[0]
+  puts keys[1]
 end

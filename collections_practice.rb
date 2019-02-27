@@ -69,7 +69,8 @@ def merge_data(keys, data)
   blake_array = [keys[0]]
   ashley_array = [keys[1]]
   while  i < data.length
-    print data[0].values[0]
+    x = data[i].values[i]
+    blake_array.push(x)
     i+=1
   end
   print blake_array

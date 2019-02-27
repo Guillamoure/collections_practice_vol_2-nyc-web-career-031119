@@ -68,14 +68,9 @@ def merge_data(keys, data)
   ashley = keys[1][:first_name]
   blake_array = [keys[0]]
   ashley_array = [keys[1]]
-  data.each do |name|
-    print data.keys
-    if name.values == ashley
-      print data.key
-    end
-    if name.values == blake
-      blake_array.push(name.values)
-    end
+  while  i < data.length
+    print data[i]
+    i+==1
   end
   print blake_array
   

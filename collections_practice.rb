@@ -69,6 +69,7 @@ def merge_data(keys, data)
   blake_array = [keys[0]]
   ashley_array = [keys[1]]
   data.each do |name|
+    print data.key
     if name.values == ashley
       print data.key
     end

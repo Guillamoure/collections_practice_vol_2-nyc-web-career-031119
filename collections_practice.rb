@@ -78,7 +78,9 @@ def find_cool(array)
   i = 0
   array.each do |hash|
     x = array[i].values[1]
-    print x
+    if x == "cool"
+      return array[i]
+    end
     i+=1
   end
 end

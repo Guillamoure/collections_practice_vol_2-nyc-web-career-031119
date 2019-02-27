@@ -76,10 +76,12 @@ end
 
 def find_cool(array)
   i = 0
+  name = []
   array.each do |hash|
     x = array[i].values[1]
     if x == "cool"
-      return array[i]
+      name.push(array[i])
+      return name
     end
     i+=1
   end

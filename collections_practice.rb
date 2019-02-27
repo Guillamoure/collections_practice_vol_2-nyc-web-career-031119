@@ -64,12 +64,8 @@ end
 
 def merge_data(keys, data)
   i = 0
-  blake = keys[0][:first_name]
-  ashley = keys[1][:first_name]
-  blake_array = [keys[0]]
-  ashley_array = [keys[1]]
+
   final_array = []
-  print data[0].values[1]
   while  i  < data.length + 1
     x = data[0].values[i]
     pre_hash = keys[i].merge(x)

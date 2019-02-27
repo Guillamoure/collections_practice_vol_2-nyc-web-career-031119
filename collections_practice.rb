@@ -87,9 +87,9 @@ def find_cool(array)
   end
 end
 
-def organize_schools(array)
+def organize_schools(master_hash)
   i = 0
   array.each do |hash|
-    x = array.[i]
+    x = hash.values.values
   end
 end

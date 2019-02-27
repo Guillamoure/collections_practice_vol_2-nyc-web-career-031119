@@ -90,7 +90,7 @@ end
 def organize_schools(master_hash)
   i = 0
   master_hash.each do |hash|
-    x = hash.values.values
+    x = hash.values
     print x
     i+=1
   end

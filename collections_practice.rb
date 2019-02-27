@@ -67,6 +67,11 @@ def merge_data(keys, data)
   print blake = keys[0][:first_name]
   print ashley = keys[1][:first_name]
   data.each do |name|
-    
+    if name.values == ashley
+      keys[1].push(name.values)
+    end
+    if name.values == blake
+      keys[0].push(name.values)
+    end
   end
 end

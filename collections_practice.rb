@@ -88,5 +88,8 @@ def find_cool(array)
 end
 
 def organize_schools(array)
-  
+  i = 0
+  array.each do |hash|
+    x = array.[i]
+  end
 end

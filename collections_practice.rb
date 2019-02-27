@@ -77,5 +77,5 @@ def merge_data(keys, data)
     end
   end
   print blake_array
-  puts keys[1]
+  
 end

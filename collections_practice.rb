@@ -90,8 +90,11 @@ end
 def organize_schools(master_hash)
   i = 0
   final_hash = {}
+  list_cities = []
   master_hash.each do |hash|
     city = hash[1].values[0]
+    if list_cities.includes?(city)
+    list_cities << city
     final_hash[city] = []
     final_hash[city] << (hash[0])
     print city

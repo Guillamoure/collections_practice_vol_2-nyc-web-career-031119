@@ -75,5 +75,9 @@ def merge_data(keys, data)
 end
 
 def find_cool(array)
-  array.each do |hash
+  i = 0
+  array.each do |hash|
+    x = array[i].values[i]
+    print x
+  end
 end

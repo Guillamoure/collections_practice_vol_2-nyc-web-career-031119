@@ -72,7 +72,6 @@ def merge_data(keys, data)
   print data[1]
   while  i  < data.length 
     x = data[i].values[i]
-    print x
     pre_hash = keys[i].merge(x)
     final_array.push(pre_hash) 
     i+=1

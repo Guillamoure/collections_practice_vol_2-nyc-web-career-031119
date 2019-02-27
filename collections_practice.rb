@@ -75,6 +75,6 @@ def merge_data(keys, data)
     final_array.push(pre_hash) 
     i+=1
   end
-  puts final_array
+  return final_array
   
 end

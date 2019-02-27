@@ -78,6 +78,6 @@ def find_cool(array)
   i = 0
   array.each do |hash|
     x = array[i].values[i]
-    print x
+    
   end
 end

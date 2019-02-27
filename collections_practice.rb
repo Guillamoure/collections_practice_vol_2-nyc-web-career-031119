@@ -70,7 +70,7 @@ def merge_data(keys, data)
   ashley_array = [keys[1]]
   while  i < data.length
     print data[i]
-    i+==1
+    i+=1
   end
   print blake_array
   

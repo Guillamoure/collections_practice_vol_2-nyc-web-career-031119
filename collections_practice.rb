@@ -70,7 +70,7 @@ def merge_data(keys, data)
   ashley_array = keys[1]
   data.each do |name|
     if name.values == ashley
-      keys[1].push(name.values)
+      blake_array.push(name.values)
     end
     if name.values == blake
       keys[0].push(name.values)

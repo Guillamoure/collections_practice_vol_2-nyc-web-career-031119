@@ -64,7 +64,6 @@ end
 
 def merge_data(keys, data)
   i = 0
-
   final_array = []
   while  i  < data.length + 1
     x = data[0].values[i]
@@ -73,5 +72,8 @@ def merge_data(keys, data)
     i+=1
   end
   return final_array
+end
+
+def find_cool
   
 end

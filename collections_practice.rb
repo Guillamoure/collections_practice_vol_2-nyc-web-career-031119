@@ -93,7 +93,7 @@ def organize_schools(master_hash)
   final_hash[""] = []
   master_hash.each do |hash|
     city = hash[1].values[0]
-    final_hash[city] = []
+    
     final_hash[city] << (hash[0])
     print city
     i+=1

@@ -93,7 +93,7 @@ def organize_schools(master_hash)
   list_cities = []
   master_hash.each do |hash|
     city = hash[1].values[0]
-    if list_cities.includes?(city) == FALSE
+    if list_cities.include?(city) == FALSE
       list_cities << city
       final_hash[city] = []
     else

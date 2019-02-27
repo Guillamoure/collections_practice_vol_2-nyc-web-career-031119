@@ -99,7 +99,8 @@ def organize_schools(master_hash)
     else
       
       print city
-    endfinal_hash[city] << (hash[0])
+    end
+    final_hash[city] << (hash[0])
     i+=1
   end
   final_hash

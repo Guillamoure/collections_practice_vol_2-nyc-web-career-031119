@@ -86,3 +86,7 @@ def find_cool(array)
     i+=1
   end
 end
+
+def orgainize_schools
+  
+end

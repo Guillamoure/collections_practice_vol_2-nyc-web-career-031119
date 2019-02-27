@@ -69,7 +69,7 @@ def merge_data(keys, data)
   blake_array = [keys[0]]
   ashley_array = [keys[1]]
   final_array = []
-  print data[0].keys[1]
+  print data[1]
   while  i  < data.length 
     x = data[i].values[i]
     pre_hash = keys[i].merge(x)
